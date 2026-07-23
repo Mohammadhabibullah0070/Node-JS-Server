@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const PORT = 3000;
-const GROQ_API_KEY = process.env.GROQ_API_KEY || "YOUR_GROQ_API_KEY_HERE";
+const GROQ_API_KEY = process.env.GROQ_API_KEY || "GROQ_API_KEY";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 const htmlFilePath = path.join(__dirname, "random.html");
