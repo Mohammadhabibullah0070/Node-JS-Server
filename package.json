@@ -1,0 +1,13 @@
+{
+  "name": "ai-prompt-app",
+  "version": "1.0.0",
+  "description": "AI Prompt Web Application using Node.js HTTP Server and Groq API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["ai", "prompt", "groq", "nodejs"],
+  "author": "",
+  "license": "ISC"
+}
