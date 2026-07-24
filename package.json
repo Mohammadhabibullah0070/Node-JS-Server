@@ -7,7 +7,15 @@
     "start": "node server.js",
     "dev": "node server.js"
   },
-  "keywords": ["ai", "prompt", "groq", "nodejs"],
+  "keywords": [
+    "ai",
+    "prompt",
+    "groq",
+    "nodejs"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
 }
